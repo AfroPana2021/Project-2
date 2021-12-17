@@ -6,11 +6,13 @@ body {
                          "intros  faq"
                          "articles faq"
                          "footer   footer";
+    
 grid-column-gap: 15px;
 }
-h1{ font: 50px}
+h1{ font: 160px}
 section > contactInfo {
     align-self: auto;
+    
 }
 body > header {
     grid-row: 1;
@@ -88,7 +90,7 @@ body > aside {
     color: aquamarine;
 }
 body > aside > h3 {
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -102,19 +104,19 @@ li {
 a {
   display: block;
   padding: 8px;
-  background-color: blueviolet;
+  background-color:firebrick;
 }
 nav > ul {line-height:3em;
       list-style-type:none;
       padding-left:1px;
-      text-decoration-color: aquamarine;
+      text-decoration-color: firebrick;
 }
 nav.horizontalNavigation li {
     float:left;
     width: 22%;
     text-decoration: none;
     display:block;
-    background-color: aquamarine;
+    background-color:navajowhite;
     text-align: center;
 }
 nav.horizontalNavigation a:hover {
@@ -126,10 +128,14 @@ nav.horizontalNavigation a {
 }
 .accordion >.accordion-item {
     background-color: aquamarine;
-    border-color: white;
+    border-color: black;
     width: 50%;
 }
-.card
-
+.card {
+color:black;
+}
+.text {
+color: black;
+}
 footer {background-color:black;
 text-align: center}

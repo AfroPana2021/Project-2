@@ -3,50 +3,48 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
- <link href="Main.css" rel="stylesheet">  
-    </head>
- <body>   
+<link rel="stylesheet" href="main.css">
+<title>By Adjoa Aboli</title>
+</head>
+<body>
 <header>
-  <h1> Contact Us</h1>  
-    
 <nav class="horizontalNavigation">
 <ul>
 <li><a href="index.html">Home</a></li>
-<li><a href=Typeofclasses.html>typesclasses</a></li>
-    <li><a href="Training%20Programs.html">trainingprograms</a>
-<li><a href="ContactUs.html">Contact</a></li>
+<li><a href=typeofclasses.html>Types of Classes</a></li>
+    <li><a href="training%20programs.html">Training Programs</a>
+<li><a href="contactus.html">Contact</a></li>
 </ul>
 </nav>
-<body> 
-    
-    
-         <div class="content-large"><form action="#">
+</header>
+<section id="form">
 
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your Firstname.."><br />
-
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your lastname.."><br />
-
-            <label for="city">City</label>
-            <select id="city" name="city">
-                <option value="West Covina">Los Angeles</option>
-                <option value="canada">Seattle</option>
-                <option value="usa">Austin</option>
-            </select><br />
-
-            <label for="state">State</label>
-            <select id="state" name="state">
-                <option value="Texas">California</option>
-                <option value="canada">Oregon</option>
-                <option value="usa">Texas</option>
-            </select><br />
-
-            <label for="subject">Subject</label><br />
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea><br />
-
-            <input type="reset" value="Reset">
-            <input type="submit" value="Submit">
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+       <label>Gender</label>
+         <div>
+        <label for="zip">Zipcode:</label><br>
+        <input type="text" id="zipcode" placeholder="xxxxx" name="zipcode">
+                </div>
+        <div> 
+        <label for="city">City:</label><br>
+         <input type="text" id="city" name="city">
+         </div>
+        <br>
+         <select name="gender">
+          <option value="female">Female</option>
+         <option value="male">Male</option>
+        <label for="why">Subject:</label><br>
+        <input type="text" id="why" name="why"><br><br>
+<input type="submit" value="Submit" id="submit">
+<input type="reset" value="Reset" id="reset">
+</form>
+</section>
 
 
        <footer><a href="mailto:FluxDance@gmail.com">Fluxdance@gmail.com</a>
